@@ -8,7 +8,6 @@ import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
-import { GeneralInformationComponent } from './general-information/general-information.component';
 import { HttpClientModule } from '@angular/common/http';
 import { TagInputModule } from 'ngx-chips';
 
@@ -19,7 +18,6 @@ import { TagInputModule } from 'ngx-chips';
     ProfileComponent,
     SignInComponent,
     SignUpComponent,
-    GeneralInformationComponent,
   ],
   imports: [
     HttpClientModule,

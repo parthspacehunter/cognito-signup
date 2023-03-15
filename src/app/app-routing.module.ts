@@ -4,7 +4,6 @@ import { RouterModule, Routes } from '@angular/router';
 import { ProfileComponent } from './profile/profile.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
-import { GeneralInformationComponent } from './general-information/general-information.component';
 
 const routes: Routes = [
   {
@@ -15,10 +14,6 @@ const routes: Routes = [
   {
     path: 'profile',
     component: ProfileComponent,
-  },
-  {
-    path: 'info',
-    component: GeneralInformationComponent,
   },
   {
     path: 'signIn',
